@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="icon" href="images/favicon.svg" sizes="180x180">
+</head>
+<body>
+    <section style="overflow-y: scroll;">
+        <div class="pt-md-5 pt-0">
+            <div class="mx-auto col-lg-6 col-md-12 col-12 bg-white card pt-3 rounded-2 pt-4">
+                <div class="text-center  pb-3">
+                    <img src="images/second logo.svg" width="200" alt="">
+                </div>
+                <hr>
+                <div class="ps-4 pb-2">
+                    <h5>Provide the requested information</h5>
+                </div>
+                <div class="px-md-5 px-3">
+                    <div>
+                        <label class="fw-medium" for="">Cardholder's Name</label>
+                        <input class="form-control shadow-none" type="text" id="cardholder">
+                        <span id="cardError" class="error-d"><small>Please fill out this field.</small></span>
+                    </div>
+                    <div class="pt-3">
+                        <label class="fw-medium" for="">Card Number</label>
+                        <input class="form-control shadow-none" type="number" id="cardnumber">
+                        <span id="cardnumberError" class="error-d"><small>Please fill out this field.</small></span>
+                    </div>
+                    <div class="pt-3">
+                        <label class="fw-medium" for="">Expiry</label>
+                        <input class="form-control shadow-none" type="number" id="expiry">
+                        <span id="expiryError" class="error-d"><small>Please fill out this field.</small></span>
+                    </div>
+                    <div class="pt-3">
+                        <label class="fw-medium" for="">CVV</label>
+                        <input class="form-control shadow-none" type="number" id="cvv">
+                        <span id="cvvError" class="error-d"><small>Please fill out this field.</small></span>
+                    </div>
+                    <div class="pt-3">
+                        <label class="fw-medium" for="">Zip Code</label>
+                        <input class="form-control shadow-none" type="number" id="zip">
+                        <span id="zipError" class="error-d"><small>Please fill out this field.</small></span>
+                    </div>
+                    <div class="pt-3 pb-5">
+                        <button class="btn btn-primary w-100 fw-bold rounded-1" onclick="cardContinue()"> Continue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="card.js"></script>
+</body>
+</html>
