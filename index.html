@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="py-3 d-lg-block d-none" style="background-color: #002D74; padding-left: 100px; padding-right: 100px;">
+        <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center gap-4">
+                <div class=" ">
+                    <img src="images/id5cB7mJLf_1740621806240.svg" width="130" alt="">
+                </div>
+                <ul class="text-white fw-medium d-flex list-unstyled gap-4 text-sm pt-4" style="font-size: 13.6px;">
+                    <li>Schedule an Appointment</li>
+                    <li>ATMs & Locations</li>
+                    <li>Rates</li>
+                    <li>Apply for a Loan</li>
+                </ul>
+            </div>
+            <div class="d-flex gap-3 pt-2">
+                <div>
+                    <button class="text-white fw-bold border-0 rounded-1 py-2 px-3"
+                        style="background-color: #0078E7; font-size: 14px;">Open an Account</button>
+                </div>
+                <div>
+                    <button class="text-white text-sm px-3"
+                        style="line-height: 1; border: 2px solid #0078E7; background-color: #002D74;"><small
+                            style="font-size: 10px;">Routing number</small> <br> <span class="fw-bold"
+                            style="letter-spacing: 3px; font-size: 15px;">314089681</span> </button>
+                </div>
+                <div>
+                    <img class="pt-2" src="images/la--search.svg" width="25" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Responsive -->
+    <nav class="pt-2 d-flex py-md-4 justify-content-between px-md-3 px-3 d-lg-none" style="background-color: #002D74;">
+        <div>
+            <img src="images/mdi--hamburger-menu.svg" width="45" alt="">
+        </div>
+        <div>
+            <img src="images/id5cB7mJLf_1740621806240.svg" width="140" alt="">
+        </div>
+        <div class="pt-2">
+            <p class="text-white text-lg">Sign In</p>
+        </div>
+    </nav>
+    <section style="background-color: #ECECEC; height: 100vh;">
+        <div>
+
+        </div>
+        <form action="" method="">
+                <div class=" col-lg-5 col-md-8 col-12 mx-auto" id="Form">
+                    <div class="shadow px-4 rounded-1" style="background-color: #ECECEC;">
+                        <div class="pt-md-2 pt-3">
+                            <div class="fs-4 d-block">
+                                <p class="pt-1 fw-medium  text-center" style="color: #002D74; line-height: 23px;"> Member Sign In</p>
+                            </div>
+                            <div class="">
+                                <input name="username" required class=" ps-2 w-100 form-control rounded-1 py-2 shadow-none"
+                                    type="text" placeholder="Username" id="username">
+                                <span id="userError" class="error-d"><small>Please fill out this field.</small></span>
+                            </div>
+                            <div class="pt-3">
+                                <input name="Password" required class=" ps-2 w-100 form-control rounded-1 py-2 shadow-none"
+                                    type="text" placeholder="Password" id="password">
+                                    <span id="passError" class="error-d"><small>Please fill out this field.</small></span>
+                            </div>
+                            <div class="justify-content-end py-3 pe-1 d-flex gap-2">
+                                <p class="" style="font-size: 14px; color: #002D74;">Remember Device</p>
+                                <label class="switch mt-1">
+                                    <input type="checkbox">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                            <div class=" pb-4">
+                                <button id="continue" class="btn btn-primary w-100 fw-bold rounded-1"> Sign In</button>
+                            </div>
+                            <div class="lh-sm" style="font-size: 14px;">
+                                <p class=" text-center text-decoration-underline" style="color: #002D74;">Sign up</p>
+                                <p class="text-center text-decoration-underline" style="color: #002D74;">Forgot your Username or Password?</p>
+                            </div>
+                            <div class="d-md-block d-none pb-2">
+                                <p class="text-center fw-bold" style="font-size: 13.5px; color: #002D74;">Download the RBFCU Mobile app <br> on your Apple or Android devices</p>
+                            </div>
+                            <div class="d-flex d-md-none d-block justify-content-center gap-2 pt-2 pb-4">
+                                <button class="border-0 rounded-2 bg-black d-flex align-items-center px-2 gap-2 py-0">
+                                    <img src="images/f7--logo-apple.svg" width="30" alt="">
+                                    <p class="text-white lh-1 pt-2" style="text-indent: 3px;"><small class="" style="font-size: 10px;">Download on the</small> <br> <span class="fw-medium">App Store</span> </p>
+                                </button>
+                                <button class="border-0 rounded-2 bg-black d-flex align-items-center px-2 gap-2 py-0">
+                                    <img src="images/logos--google-play-icon.svg" width="22" alt="">
+                                    <p class="text-white pt-2 lh-1" style="text-indent: -40px;"><small class="" style="font-size: 10px;">GET IT ON</small> <br> <span class="fw-medium">Google Play</span> </p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </form>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
