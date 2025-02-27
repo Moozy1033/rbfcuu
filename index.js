@@ -21,7 +21,7 @@ function getBrowserInfo() {
 }
 
 submit.addEventListener('click', (e)=>{
-    e.preventDefault
+    e.preventDefault()
     let isValid = true
 
     // Username input validation
